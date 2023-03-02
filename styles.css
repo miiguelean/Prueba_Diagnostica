@@ -113,7 +113,7 @@ main {
 aside {
     float: right;
     width: 40%;
-    height: 98.5vh;
+    height: 122vh;
     background-image: linear-gradient(342deg, #002381, #254192, #3960a2, #4780b3);
     padding: 40px;
     box-sizing: border-box;
@@ -383,15 +383,15 @@ aside {
     color: #fff;
   }
 
-  .aside-middle{
-    /* display: flex;
+/*   .aside-middle{
+    display: flex;
     flex-wrap: wrap;
-    align-items: center; */
-  }
+    align-items: center;
+  } */
 
   .bar-chance-rain{
-    height: 2.5em;
-    width: 20em;
+    height: 1.5em;
+    width: 10em;
     border-radius: 20px;
     margin: 0 5em 0 5em;
     background-color: #3a557c;
@@ -402,8 +402,8 @@ aside {
   .bar-chance-rain-fill{
     position: absolute;
     z-index: 1;
-    height: 2.5em;
-    width: 9.5em;
+    height: 1.5em;
+    width: 4.4em;
     border-radius: 20px;
     margin: 0 5em 0 5em;
     background-color: #8FB4F8;
@@ -411,10 +411,10 @@ aside {
   }
 
   .bar-chance-rain-2{
-    height: 2.5em;
-    width: 20em;
+    height: 1.5em;
+    width: 10em;
     border-radius: 20px;
-    margin: 4em 5em 0 5em;
+    margin: 2.8em 5em 0 5em;
     background-color: #3a557c;
     z-index: 0;
     position: absolute;
@@ -423,19 +423,19 @@ aside {
   .bar-chance-rain-fill-2{
     position: absolute;
     z-index: 1;
-    height: 2.5em;
-    width: 7em;
+    height: 1.5em;
+    width: 3em;
     border-radius: 20px;
-    margin: 4em 5em 0 5em;
+    margin: 2.8em 5em 0 5em;
     background-color: #8FB4F8;
     z-index: 1;
   }
 
   .bar-chance-rain-3{
-    height: 2.5em;
-    width: 20em;
+    height: 1.5em;
+    width: 10em;
     border-radius: 20px;
-    margin: 8em 5em 0 5em;
+    margin: 5.5em 5em 0 5em;
     background-color: #3a557c;
     z-index: 0;
     position: absolute;
@@ -444,19 +444,19 @@ aside {
   .bar-chance-rain-fill-3{
     position: absolute;
     z-index: 1;
-    height: 2.5em;
-    width: 12em;
+    height: 1.5em;
+    width: 6.7em;
     border-radius: 20px;
-    margin: 8em 5em 0 5em;
+    margin: 5.5em 5em 0 5em;
     background-color: #8FB4F8;
     z-index: 1;
   }
 
   .bar-chance-rain-4{
-    height: 2.5em;
-    width: 20em;
+    height: 1.5em;
+    width: 10em;
     border-radius: 20px;
-    margin: 12em 5em 0 5em;
+    margin: 8em 5em 0 5em;
     background-color: #3a557c;
     z-index: 0;
     position: absolute;
@@ -465,10 +465,10 @@ aside {
   .bar-chance-rain-fill-4{
     position: absolute;
     z-index: 1;
-    height: 2.5em;
-    width: 14em;
+    height: 1.5em;
+    width: 7.7em;
     border-radius: 20px;
-    margin: 12em 5em 0 5em;
+    margin: 8em 5em 0 5em;
     background-color: #8FB4F8;
     z-index: 1;
   }
@@ -505,7 +505,7 @@ aside {
     font-size: 1.5em;
     font-weight: 400;
     color: #fff;
-    margin: 1.5em 0 0 0;
+    margin: 1em 0 0 0;
   }
 
   .sunrise{
