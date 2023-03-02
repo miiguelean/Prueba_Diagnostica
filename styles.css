@@ -60,7 +60,7 @@ main {
     background-color: #f8f8f8;
     border-radius: 5px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     padding: 1em;
 }
