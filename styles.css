@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: #ffffff;
+    /* overflow: hidden; */
+}
+
+header {
+    width: 60%;
+    height: 15vh;
+    background-color: #fff;
+    color: #fff;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+main {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-top{
+    padding: 1% 0 0 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: #1f325e;
+}
+
+.details{
+    text-decoration: none;
+    color: #4f6cb1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 0 0 3%;
+    justify-content: center;
+}
+
+.wind-speed{
+    width: 40%;
+    height: 120px;
+    margin: 0 3% 0 0;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+}
+
+.rain-chanse{
+    width: 40%;
+    height: 120px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+}
+
+.pressure{
+    width: 40%;
+    height: 120px;
+    margin: 3% 3% 0 0;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+}
+
+.uv-index{
+    width: 40%;
+    height: 120px;
+    margin: 3% 0 0 0;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1em;
+}
+
+.main-bottom{
+    height: 36vh;
+    margin: 1.2em 0 0 0;
+    padding: 0 0 0 3%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #1f325e;
+}
+
+
+aside {
+    float: right;
+    width: 40%;
+    height: 98.5vh;
+    background-image: linear-gradient(342deg, #002381, #254192, #3960a2, #4780b3);
+    padding: 40px;
+    box-sizing: border-box;
+    margin-left: -40%;
+    margin-top: -7.62%;
+}
+
+.header-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #1f325e;
+    text-align: center;
+}
+
+.date>span{
+    font-size: .6em;
+    font-weight: 400;
+    color: #C2C2C2;
+}
+
+.icon-search{
+    position: absolute;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    fill: #C2C2C2;
+    color: #C2C2C2;
+}
+
+.search{
+    padding: 12px 30px 12px 50px;
+    text-decoration: none;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin: 0 1.5em 0 0;
+}
+
+.btn-bell{
+    width: 3em;
+    height: 3em;
+    fill: #C2C2C2;
+    background-color: #f8f8f8;
+    border: none;
+    margin: 0 1.5em 0 0;
+    border-radius: 5px;
+}
+
+.btn-bell:hover{
+    background-color: #c6c6c6;
+    fill: #fff;
+}
+
+.btn-bell>svg{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.btn-profile{
+    width: 3em;
+    height: 3em;
+    fill: #C2C2C2;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-profile:hover{
+    background-color: #c6c6c6;
+    fill: #fff;
+}
+
+.btn-profile>svg{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.wind-icon{
+    width: 2.5em;
+    height: 2.5em;
+    fill: #3578BC;
+    margin: 0 2em 0 2em;
+}
+
+.wind-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+
+#wind-speed{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7em;
+    font-weight: 400;
+    color: #1f325e;
+}
+
+.pressure-icon{
+    width: 2.5em;
+    height: 2.5em;
+    fill: #3578BC;
+    margin: 0 2em 0 2em;
+}
+
+.pressure-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+
+#pressure{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7em;
+    font-weight: 400;
+    color: #1f325e;
+}
+
+.rain-icon{
+    width: 2.5em;
+    height: 2.5em;
+    fill: #3578BC;
+    margin: 0 2em 0 2em;
+}
+
+.rain-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+
+#rain-chanse{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7em;
+    font-weight: 400;
+    color: #1f325e;
+}
+
+.uv-icon{
+    width: 2.5em;
+    height: 2.5em;
+    fill: #3578BC;
+    margin: 0 2em 0 2em;
+}
+
+.uv-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #7d7d7d;
+}
+
+#uv-index{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7em;
+    font-weight: 400;
+    color: #1f325e;
+}
+
+.aside-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#city{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #fff;
+}
+
+#country{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #fff;
+}
+
+#hour{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.weather{
+    margin: 1.5em 0 1.5em 0;
+}
+
+#weather-celsius{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    color: #fff;
+}
+
+#description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.temperature{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .forecast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  
+  .forecast-hour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .forecast-time {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .forecast-pill {
+    height: 10px;
+    border-radius: 20px;
+    background-color: #007bff;
+  }
+  
+  .forecast-percentage {
+    margin-top: 5px;
+    font-weight: bold;
+  } */
+
+  .chance-text{
+    margin: 1.5em 0 1em 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .aside-middle{
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+  }
+
+  .bar-chance-rain{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 20px;
+    margin: 0 5em 0 5em;
+    background-color: #3a557c;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .bar-chance-rain-fill{
+    position: absolute;
+    z-index: 1;
+    height: 2.5em;
+    width: 9.5em;
+    border-radius: 20px;
+    margin: 0 5em 0 5em;
+    background-color: #8FB4F8;
+    z-index: 1;
+  }
+
+  .bar-chance-rain-2{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 20px;
+    margin: 4em 5em 0 5em;
+    background-color: #3a557c;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .bar-chance-rain-fill-2{
+    position: absolute;
+    z-index: 1;
+    height: 2.5em;
+    width: 7em;
+    border-radius: 20px;
+    margin: 4em 5em 0 5em;
+    background-color: #8FB4F8;
+    z-index: 1;
+  }
+
+  .bar-chance-rain-3{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 20px;
+    margin: 8em 5em 0 5em;
+    background-color: #3a557c;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .bar-chance-rain-fill-3{
+    position: absolute;
+    z-index: 1;
+    height: 2.5em;
+    width: 12em;
+    border-radius: 20px;
+    margin: 8em 5em 0 5em;
+    background-color: #8FB4F8;
+    z-index: 1;
+  }
+
+  .bar-chance-rain-4{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 20px;
+    margin: 12em 5em 0 5em;
+    background-color: #3a557c;
+    z-index: 0;
+    position: absolute;
+  }
+
+  .bar-chance-rain-fill-4{
+    position: absolute;
+    z-index: 1;
+    height: 2.5em;
+    width: 14em;
+    border-radius: 20px;
+    margin: 12em 5em 0 5em;
+    background-color: #8FB4F8;
+    z-index: 1;
+  }
+
+  .percent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 60%;
+    height: 24vh;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .hours{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15%;
+    float: left;
+    height: 24vh;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .sunrise-sunset{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #fff;
+    margin: 1.5em 0 0 0;
+  }
+
+  .sunrise{
+    width: 20vw;
+    height: 11vh;
+    margin: 1em 0 0 0;
+    border-radius: 10px;
+    background-color: #324f86;
+    border: 1px solid #8FB4F8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .sunset{
+    width: 20vw;
+    height: 11vh;
+    margin: .7em 0 0 0;
+    border-radius: 10px;
+    background-color: #324f86;
+    border: 1px solid #8FB4F8;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .sunrise-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sunrise-icon{
+    width: 2.5em;
+    height: 2.5em;
+    fill: #fff;
+    margin: 0 2em 0 2em;
+    align-items: center;
+    display: flex;
+}
+
+#sunrise{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
+
+#sunset{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sunset-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sunset-icon{
+    width: 2.5em;
+    height: 2.5em;
+    fill: #fff;
+    margin: 0 2em 0 2em;
+    align-items: center;
+    display: flex;
+}
