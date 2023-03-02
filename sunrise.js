@@ -2,7 +2,7 @@ const API_KEY = 'db6baebc106f4a3fa6825341232802'; // Reemplaza 'YOUR_API_KEY' co
 const CITY = 'New York'; // Ciudad a la que se va a consultar la hora de salida del sol
 
 // Hacer la solicitud a la API
-fetch(`http://api.weatherapi.com/v1/astronomy.json?key=${API_KEY}&q=${CITY}&dt=today`)
+fetch(`https://api.weatherapi.com/v1/astronomy.json?key=${API_KEY}&q=${CITY}&dt=today`)
   .then(response => response.json())
   .then(data => {
     const sunrise = data.astronomy.astro.sunrise; // Extraer la hora de salida del sol de la respuesta de la API
